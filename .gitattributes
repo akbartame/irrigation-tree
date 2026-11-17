@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Jangan pernah commit output notebook: nbstripout membersihkan output & metadata
+# saat file di-stage. Setelah clone, jalankan sekali: nbstripout --install
+*.ipynb filter=nbstripout
+*.ipynb diff=ipynb

@@ -1,0 +1,4 @@
+# Alat pengembangan (bukan dependensi notebook: notebook menginstal paketnya sendiri).
+# Setelah instalasi, daftarkan filter git sekali per clone:
+#   nbstripout --install
+nbstripout>=0.9
